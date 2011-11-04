@@ -1,3 +1,9 @@
+# revision 16549
+# category Package
+# catalog-ctan /macros/latex/contrib/nomentbl
+# catalog-date 2007-01-12 00:17:35 +0100
+# catalog-license lppl
+# catalog-version 0.4
 Name:		texlive-nomentbl
 Version:	0.4
 Release:	1
@@ -47,6 +53,7 @@ arguments: Symbol, description and physical unit.
 #- source
 %doc %{_texmfdistdir}/source/latex/nomentbl/nomentbl.dtx
 %doc %{_texmfdistdir}/source/latex/nomentbl/nomentbl.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ arguments: Symbol, description and physical unit.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
