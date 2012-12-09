@@ -53,3 +53,17 @@ arguments: Symbol, description and physical unit.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4-2
++ Revision: 754355
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.4-1
++ Revision: 719127
+- texlive-nomentbl
+- texlive-nomentbl
+- texlive-nomentbl
+- texlive-nomentbl
+
