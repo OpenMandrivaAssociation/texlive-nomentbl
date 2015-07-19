@@ -6,7 +6,7 @@
 # catalog-version 0.4
 Name:		texlive-nomentbl
 Version:	0.4
-Release:	9
+Release:	10
 Summary:	Nomenclature typeset in a longtable
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nomentbl
