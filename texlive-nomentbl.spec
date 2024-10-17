@@ -3,7 +3,7 @@ Version:	16549
 Release:	2
 Summary:	Nomenclature typeset in a longtable
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nomentbl
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/nomentbl
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nomentbl.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nomentbl.doc.r%{version}.tar.xz
